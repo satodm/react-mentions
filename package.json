@@ -4,6 +4,12 @@
   "description": "React mentions input",
   "main": "dist/react-mentions.cjs.js",
   "module": "dist/react-mentions.esm.js",
+  "exports": {
+    ".": {
+      "import": "./dist/react-mentions.esm.js",
+      "require": "./dist/react-mentions.cjs.js"
+    }
+  },
   "files": [
     "dist"
   ],
