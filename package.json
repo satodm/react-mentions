@@ -16,7 +16,8 @@
     "now-build": "webpack --config demo/webpack.config.js",
     "prerelease": "yarn build",
     "release": "changeset publish",
-    "change": "changeset"
+    "change": "changeset",
+    "genpack": "yarn install; yarn build; yarn pack"
   },
   "repository": {
     "type": "git",
